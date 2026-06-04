@@ -20,6 +20,12 @@ https://web-production-cd500.up.railway.app/
 
 This code helps the user find cuttings throughout the nursery. First navigate to Plantiful and go to the Production tab. Then, in the 'Cuttings finder' view, export the inventory as a CSV. Once this is done, you'll also need a species specific cutting information document. An example can be found here for formatting. Then, once all of these are uploaded, click on the search bar to then find a specific plant. This then brings up the stats we have on that plant. This includes things like number ready, total, skipped, and cutted. Information is keyed to crop codes and can then be referenced later on. For example, if something was cut and needs time to recover, this information will be linked to the crop code. Thus, when you then are going back to check in the future whether or not you have something you can harvest, you know that the crop that was just cut will be unavailable for some amount of time. 
 
+# Route optimization 
+https://web-production-7f1e1.up.railway.app/
+
+Still in it's infancy as of 06-04-2026. This code mainly has one function but two ways of going about it. Given a list of locations within the nursery, it will order them in the most efficient path. This uses a low-n assumption about going to n stops (s.t. n<10), but better algorithms are being researched and implemented. The user can specify if they're using a cart or walking on foot. Furthermore, there are two ways to give information on locations. You can either just type them out one by one, separated by commas, OR, the user can upload a file with locations. In the case that a file is uploaded, the file will be returned, now with orders in sequential order according to the route optimization.
+
+(Note: right now, nets are placed around graph theoretical nodes to allocate bed locations. Beds in the same net are returned in smallest to greatest number, which may not always be the case. Refine the mesh and pray!) 
 
 Digital cycle counting
 **In progress**
