@@ -27,6 +27,12 @@ Still in it's infancy as of 06-04-2026. This code mainly has one function but tw
 
 (Note: right now, nets are placed around graph theoretical nodes to allocate bed locations. Beds in the same net are returned in smallest to greatest number, which may not always be the case. Refine the mesh and pray!) 
 
+# Inventory auto-formatter
+https://web-production-cd05a.up.railway.app/
+
+This will take your wholesale catalog from plantiful and automatically format it such that it's ready for upload in the squarespace website. Further work will include auto-formatting from SquareUp -> Squarespace and of course Plantiful -> Striven. By the way, what's that native plant in the background? 
+
+
 Digital cycle counting
 **In progress**
 
