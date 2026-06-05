@@ -15,7 +15,7 @@ This code takes only one input; your inventory. It then compares it to an intern
 
 Future work will include an interactive map and functionality to include shade and irrigation units in both the inventory as well as the internal locations. 
 
-# Cuttings finder
+# Cuttings finder 9000
 https://web-production-cd500.up.railway.app/
 
 This code helps the user find cuttings throughout the nursery. First navigate to Plantiful and go to the Production tab. Then, in the 'Cuttings finder' view, export the inventory as a CSV. Once this is done, you'll also need a species specific cutting information document. An example can be found here for formatting. Then, once all of these are uploaded, click on the search bar to then find a specific plant. This then brings up the stats we have on that plant. This includes things like number ready, total, skipped, and cutted. Information is keyed to crop codes and can then be referenced later on. For example, if something was cut and needs time to recover, this information will be linked to the crop code. Thus, when you then are going back to check in the future whether or not you have something you can harvest, you know that the crop that was just cut will be unavailable for some amount of time. 
