@@ -32,6 +32,11 @@ https://web-production-cd05a.up.railway.app/
 
 This will take your wholesale catalog from plantiful and automatically format it such that it's ready for upload in the squarespace website. Further work will include auto-formatting from SquareUp -> Squarespace and of course Plantiful -> Striven. By the way, what's that native plant in the background? 
 
+# Pre-emergent application automation 
+https://web-production-dfbd5.up.railway.app/
+
+This code can be used to generate a list of plants which need some kind of treatment. Right now (6/9/26) this can only handle pre-emergent, however in the future we can outline other functions for this list such as rootshield and fertilizer. Note that you can change the number of weeks you're looking back. The default is 3 but this can be changed as needed. Additionally, this code allows you to banish certain rows from the list that are not relevant for the export. That is, if something shouldn't be on the list for whatever reason, there's an easy way to manually remove it from the list before generating the export. 
+
 
 Digital cycle counting
 **In progress**
