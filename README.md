@@ -38,7 +38,7 @@ https://web-production-dfbd5.up.railway.app/
 This code can be used to generate a list of plants which need some kind of treatment. Right now (6/9/26) this can only handle pre-emergent, however in the future we can outline other functions for this list such as rootshield and fertilizer. Note that you cannot change the number of weeks you're looking back. The default is 3 but this can be changed as needed. Additionally, this code allows you to banish certain rows from the list that are not relevant for the export. That is, if something shouldn't be on the list for whatever reason, there's an easy way to manually remove it from the list before generating the export. 
 
 
-Digital cycle counting
-**In progress**
+# Digital cycle counting
+**In progress** _but on it's way!_
 
 
