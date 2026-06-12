@@ -45,8 +45,16 @@ This code allows the user to find liners for the products that are the most in t
 ## Digital cycle counting
 https://glochidbeard.github.io/cycle_counts
 
-_HOSTED ON GITHUB PAGES, NOT RAILWAY_ This app is usable as an application without internet connection for a tablet based interface out in the field. The main use is being able to do inventory cycle counts without a paper trail. Note that while this does technically run on the computer, it is not configured whatsoever for visual appeal. In fact, the interface kind of breaks and is generally not recommended. 
+_HOSTED ON GITHUB PAGES, NOT RAILWAY_ This app is usable as an application without internet connection for a tablet based interface out in the field. The main use is being able to do inventory cycle counts without a paper trail. Note that while this does technically run on the computer, it is not configured whatsoever for visual appeal. In fact, the interface kind of breaks and is generally not recommended. For use on the tablet however, the user will first need to navigate to the website linked above on the tablet and then go to the top right hand corner of the screen to the kebab. Scrolling nearly all the way to the bottom, there is then an option to add to home screen. Upon doing this
 
-For use on the tablet however, the user will first need to navigate to the website linked above on the tablet and then go to the top right hand corner of the screen to the kebab. Scrolling nearly all the way to the bottom, there is then an option to add to home screen. Upon doing this
+## Plursery - The nursery planner
+https://nurseryplanner-production.up.railway.app/
+
+This app allows for one to create Polygons for roads, structures, and features to efficiently plan space in the nursery. It starts you off in Yuma for some reason but you'll have to scroll to the nursery (or potential new site?!) of interest. You can then design how everything should look in a self explanatory way. To save the maps you have to export them - and then next time you want to work on it, you'll have to import it. 
+
+
+
+
+
 
 
