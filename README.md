@@ -6,7 +6,26 @@ https://orderchecks-production.up.railway.app/
 
 This website prompts the user for an inventory and an order. Then, it runs a check against what we have, what we need, and what needs to be propagated. Results are exportable in a .txt format for both the whole check and just the highest priority items. Rough route optimization has been implemented which groups plants of interest as well, so the user doesn't need to walk in inefficient paths. 
 
-Future work will involve writting and implementation of an allocation algorithm based on order priority. 
+Order csv: Obtained by going to Plantiful > Sales > Line items. Then, go to the order check view, and in the search bar, type in the order number of the order you're trying to check. For example; 28176. Then, wait for the view to load, and export the csv when you're done. Importantly, you'll have to rename the order csv to 28176_order.csv. The code reads the numbers associated with the order when it's doing some of the behind the scences work!
+
+Inventory csv: Obtained by going to Plantiful > Production, and then using the Timesaver view. Then, just export this and wait! No need to name it anything special 
+
+Catalog csv (Optional but highly recommended): Obtained by going to Plantiful > Catalog, then clicking on the order check view. This brings in information about the availability of certain line items across the nursery, so it's then up to the user on how they disperse the existing inventory. If for example we have a deficit of a given product overall but we have an existing amount of product that could satisfy one order, it will flag this in the 'Caution' status. 
+
+Meanings of Statuses
+1. Ready : We have enough existing available inventory that's in the correct size and meets the quantity demand of the order. Additionally, the total remaining inventory quantity (taking into account all orders placed on that item) is positive. 
+2. Caution : We have enough existing available inventory that's in the correct size and meets the quantity demand of the order. However, the total remaining inventory quantity (taking into account all orders placed on that item) is negative.
+3. Short : We have a sufficient quantity of material in the nursery, but it's not in the right size.
+4. Propagate : We do not have enough plant material in the nursery at an equal or smaller size than the requested variant. That is, we just need to propagate or buy more!
+
+You then have the option to generate a few reports.
+1. The full report is extremely comprehensive, giving a summary table and then information on all plants throughout the nursery which could possibly be used for the given order. 
+
+2. The Short/propagate report will essentially give you the full report but filtered for those plants which have a short/propagate status. This is the "action report", which also gives suggested actions that one can take in order to fulfill the order. 
+
+3. The customer facing report exports ONLY the summary table from the full report and replaces some of the status names with more outward friendly nomenclature. For each of the following equivalencies, the internal status is the first in the group and the customer facing status is the second: (Ready, Ready), (Short, In production), (Propagate, Currently propagating), and (Caution, Available). 
+
+Note that some customers ask for a liner size of some plant, and while we may not have exactly the liner size they're looking for, we may have another liner size that's satisfactory for them. In this case, we internally flag this with a "Liner ready" status, but on the customer facing report, it shows up as "Ready". 
 
 ## Inventory of space 
 https://inventoryofspace.up.railway.app/
