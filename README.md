@@ -74,6 +74,11 @@ https://nurseryplanner-production.up.railway.app/
 
 This app allows for one to create Polygons for roads, structures, and features to efficiently plan space in the nursery. It starts you off in Yuma for some reason but you'll have to scroll to the nursery (or potential new site?!) of interest. You can then design how everything should look in a self explanatory way. To save the maps you have to export them - and then next time you want to work on it, you'll have to import them back in. 
 
+# Speedy seed insurance
+https://glochidbeard.github.io/seed_collection_map/
+
+This app allows seed collectors to log their information about pretty much anything of interest. It has an interactable map where the user can place polygons and assign attributes to those polygons. Some attributes include species name, relative amount of seed, relative amount of plants, recommended visiting time, actual time visited (day/ time of day), etc. Data is saved to a user. When the user is using offline mode, nothing will be saved when closing out the app. Then when the user makes it back to a place with internet, they can click 'Cache' and all of the items will be saved to their account. Next time it's opened, the data will show up as expected. Still a work in progress as of 6/18/2026.
+
 
 
 
