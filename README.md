@@ -79,8 +79,10 @@ https://glochidbeard.github.io/seed_collection_map/
 
 This app allows seed collectors to log their information about pretty much anything of interest. It has an interactable map where the user can place polygons and assign attributes to those polygons. Some attributes include species name, relative amount of seed, relative amount of plants, recommended visiting time, actual time visited (day/ time of day), etc. Data is saved to a user. When the user is using offline mode, nothing will be saved when closing out the app. Then when the user makes it back to a place with internet, they can click 'Cache' and all of the items will be saved to their account. Next time it's opened, the data will show up as expected. Still a work in progress as of 6/18/2026.
 
+## Plant Protocol Player
+https://web-production-a42d2.up.railway.app/
 
-
+This app allows for automatic generation of sowing protocols. Very much a work-in-progress as of 06-23-2026
 
 
 
