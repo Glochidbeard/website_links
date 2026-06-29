@@ -84,6 +84,11 @@ https://web-production-a42d2.up.railway.app/
 
 This app allows for automatic generation of sowing protocols. Very much a work-in-progress as of 06-23-2026
 
+## Victim Tracker
+https://web-production-2831b.up.railway.app/
+
+This app allows the prop team to track botanical victims throughout the nursery. Whether it be due to irrigation issues, pests, diseases, or even problems in shipping. Essentially it first requires the user to download a timesaver from Plantiful, upload it, make changes as needed, and then upload the results back into Plantiful. A more detailed instruction manual is available upon request! 
+
 
 
 
