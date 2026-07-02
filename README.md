@@ -94,3 +94,14 @@ https://web-production-965af.up.railway.app/
 
 This app allows the user to plug in a chase statement, and out comes a file formatted for upload into striven. Note that there are two additional columns within the sales output, being card number as well as the name of the purchase from the chase export. 
 
+## Buckwheat
+https://web-production-69244.up.railway.app/
+
+This app features an interactable map that can be used to track the dynamics of liners within the nursery, as well as other plants. It has polygons drawn over a basemap of the site which then hold the information about whatever plants are are in Plantiful in that exact spot. Then there is a new column, liner status, meant to help the users track the movement and future plans with the liners.
+
+## Liner security 
+web-production-92e20c.up.railway.app
+
+A quick way to see total demand on a per species basis in conjunction with both liner security and production plan quotas. 
+
+
