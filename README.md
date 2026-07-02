@@ -89,6 +89,8 @@ https://web-production-2831b.up.railway.app/
 
 This app allows the prop team to track botanical victims throughout the nursery. Whether it be due to irrigation issues, pests, diseases, or even problems in shipping. Essentially it first requires the user to download a timesaver from Plantiful, upload it, make changes as needed, and then upload the results back into Plantiful. A more detailed instruction manual is available upon request! 
 
+## Chase statement -> Striven Formatter
+https://web-production-965af.up.railway.app/
 
-
+This app allows the user to plug in a chase statement, and out comes a file formatted for upload into striven. Note that there are two additional columns within the sales output, being card number as well as the name of the purchase from the chase export. 
 
