@@ -104,4 +104,8 @@ web-production-92e20c.up.railway.app
 
 A quick way to see total demand on a per species basis in conjunction with both liner security and production plan quotas. 
 
+## Location suggestions
+https://web-production-83f243.up.railway.app/
+
+Still in development, this app takes in a list of plants including their species name, quantity, and size, then suggestions location(s) where they would fit, given a pre-determined algorithm. As of (7/23/26) the only functional area is L, however more is coming!
 
