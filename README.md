@@ -1,11 +1,6 @@
 # Website links
 A complete list of websites/application links and a description of what they do
 
-## Viridian 
-https://viridian.up.railway.app/community
-
-Your one stop shop for all tools below
-
 ## Order check app
 https://orderchecks-production.up.railway.app/ 
 
