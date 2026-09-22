@@ -1,6 +1,11 @@
 # Website links
 A complete list of websites/application links and a description of what they do
 
+## Viridian
+https://viridian.up.railway.app/t/dashboard
+
+Viridian contains all of the below functionalities. Please ask for help if you can't find what you're looking for!
+
 ## Order check app
 https://orderchecks-production.up.railway.app/ 
 
